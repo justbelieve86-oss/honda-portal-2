@@ -1,0 +1,33 @@
+{
+  "src/app/components/dashboard/DashboardLayout.tsx -> ./Navbar": {
+    "id": 6961,
+    "files": [
+      "static/chunks/6961.505fb108b7d1b1ed.js"
+    ]
+  },
+  "src/app/components/dashboard/DashboardLayout.tsx -> ./Sidebar": {
+    "id": 2533,
+    "files": [
+      "static/chunks/vendors-962afe782c735a18.js",
+      "static/chunks/2533.dbc361349c628949.js"
+    ]
+  },
+  "src/app/dashboard/admin/vehicle-management/page.tsx -> @/app/components/dashboard/DashboardLayout": {
+    "id": 9147,
+    "files": [
+      "static/chunks/common-8f242b2ec6ab6352.js"
+    ]
+  },
+  "src/app/dashboard/corporate-customers/page.tsx -> @/app/components/dashboard/DashboardLayout": {
+    "id": 9147,
+    "files": [
+      "static/chunks/common-8f242b2ec6ab6352.js"
+    ]
+  },
+  "src/app/dashboard/customers/page.tsx -> @/app/components/dashboard/DashboardLayout": {
+    "id": 9147,
+    "files": [
+      "static/chunks/common-8f242b2ec6ab6352.js"
+    ]
+  }
+}

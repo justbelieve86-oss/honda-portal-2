@@ -1,0 +1,183 @@
+{
+  "timestamp": "2025-09-18T13-22-28-892Z",
+  "users": [
+    {
+      "id": "cmfodwh160009jgzwdf7seggc",
+      "email": "admin@kardelen.com",
+      "username": "admin",
+      "password": "$2b$10$5xM.bg1cF.Ti.nTlb6LHx.0avY9OlsFUZQebI1kPDWFO2gQzuspzS",
+      "name": "Admin User",
+      "role": "ADMIN",
+      "createdAt": "2025-09-17T19:38:03.450Z",
+      "updatedAt": "2025-09-17T19:38:03.450Z"
+    },
+    {
+      "id": "cmfp6duz8000akzlgbd66lpm5",
+      "email": "test@honda.com",
+      "username": "test",
+      "password": "$2b$10$9ParX04imBSPIZ..P/nIxes2IBPMtecX.zKgyuP99wznKTCVSFA8S",
+      "name": "testuser",
+      "role": "SATIS_DANISMANI",
+      "createdAt": "2025-09-18T08:55:23.924Z",
+      "updatedAt": "2025-09-18T08:55:23.924Z"
+    }
+  ],
+  "brands": [
+    {
+      "id": "cmfoelznv0007jgaowel3b9s6",
+      "name": "BYD",
+      "createdAt": "2025-09-17T19:57:53.995Z",
+      "updatedAt": "2025-09-17T19:57:53.995Z",
+      "models": [
+        {
+          "id": "cmfof5ysz000kjgaok2k69mzg",
+          "name": "Seal",
+          "brandId": "cmfoelznv0007jgaowel3b9s6",
+          "createdAt": "2025-09-17T20:13:26.003Z",
+          "updatedAt": "2025-09-17T20:13:26.003Z"
+        }
+      ]
+    },
+    {
+      "id": "cmfp3ua7o0000kzlgirlp7qvq",
+      "name": "Honda",
+      "createdAt": "2025-09-18T07:44:11.316Z",
+      "updatedAt": "2025-09-18T07:44:11.316Z",
+      "models": [
+        {
+          "id": "cmfp3utvm0007kzlgvgmcwvad",
+          "name": "HR-V",
+          "brandId": "cmfp3ua7o0000kzlgirlp7qvq",
+          "createdAt": "2025-09-18T07:44:36.802Z",
+          "updatedAt": "2025-09-18T07:44:36.802Z"
+        }
+      ]
+    },
+    {
+      "id": "cmfp3ullq0003kzlg4kqje9gn",
+      "name": "Toyota",
+      "createdAt": "2025-09-18T07:44:26.078Z",
+      "updatedAt": "2025-09-18T07:44:26.078Z",
+      "models": [
+        {
+          "id": "cmfp3v3i10009kzlgz9c0slp5",
+          "name": "Corolla",
+          "brandId": "cmfp3ullq0003kzlg4kqje9gn",
+          "createdAt": "2025-09-18T07:44:49.274Z",
+          "updatedAt": "2025-09-18T07:44:49.274Z"
+        }
+      ]
+    }
+  ],
+  "packages": [
+    {
+      "id": "cmfp9axgo000fkzlgrpt8mlkv",
+      "name": "Elegance",
+      "modelId": "cmfp3utvm0007kzlgvgmcwvad",
+      "basePrice": 0,
+      "otvRate": 0,
+      "kdvRate": 0,
+      "mtvAmount": 5056,
+      "plakaMasrafi": 2809,
+      "createdAt": "2025-09-18T10:17:06.023Z",
+      "updatedAt": "2025-09-18T10:17:06.023Z"
+    }
+  ],
+  "accessories": [
+    {
+      "id": "cmfp9bf9f000hkzlgfzbz3mn2",
+      "name": "Paspas",
+      "brandId": "cmfp3ua7o0000kzlgirlp7qvq",
+      "modelId": "cmfp3utvm0007kzlgvgmcwvad",
+      "createdAt": "2025-09-18T10:17:29.092Z",
+      "updatedAt": "2025-09-18T10:17:29.092Z"
+    }
+  ],
+  "userBrands": [
+    {
+      "id": "cmfp2vodk0001kz9owy94pper",
+      "userId": "cmfodwh160009jgzwdf7seggc",
+      "brandId": "cmfoelznv0007jgaowel3b9s6",
+      "createdAt": "2025-09-18T07:17:16.712Z"
+    },
+    {
+      "id": "cmfp3ua7t0002kzlg1b4d1jvy",
+      "userId": "cmfodwh160009jgzwdf7seggc",
+      "brandId": "cmfp3ua7o0000kzlgirlp7qvq",
+      "createdAt": "2025-09-18T07:44:11.322Z"
+    },
+    {
+      "id": "cmfp3ullr0005kzlgvdrsizv8",
+      "userId": "cmfodwh160009jgzwdf7seggc",
+      "brandId": "cmfp3ullq0003kzlg4kqje9gn",
+      "createdAt": "2025-09-18T07:44:26.080Z"
+    },
+    {
+      "id": "cmfp6duzf000bkzlgevw8nxl4",
+      "userId": "cmfp6duz8000akzlgbd66lpm5",
+      "brandId": "cmfp3ua7o0000kzlgirlp7qvq",
+      "createdAt": "2025-09-18T08:55:23.931Z"
+    }
+  ],
+  "customers": [
+    {
+      "id": "cmfp8xfre000dkzlgatgu81m0",
+      "name": "Hayri Kayar",
+      "email": "hayrikayar@windowslive.com",
+      "phone": "+905071922062",
+      "tcNo": "12707197396",
+      "birthDate": "1986-11-13",
+      "occupation": "Satış Müdürü",
+      "address": "Megacenter Avm Columbia\n1",
+      "cityId": 21,
+      "districtId": 264,
+      "status": "Aktif",
+      "registerDate": "18.09.2025",
+      "createdBy": "cmfp6duz8000akzlgbd66lpm5",
+      "createdAt": "2025-09-18T10:06:36.553Z",
+      "updatedAt": "2025-09-18T10:06:36.553Z"
+    }
+  ],
+  "corporateCustomers": [
+    {
+      "id": "cmfp9ct5g000jkzlgpzwelipp",
+      "name": "Kardelen Otomotiv Sanayi İ̇nşaat Otomotiv Anonim Şirketi",
+      "taxNumber": "5545454411",
+      "taxOffice": "Gökalp",
+      "email": "hayrikayar@windowslive.com",
+      "phone": "05071922062",
+      "address": "MegaCenter avm columbia\n1",
+      "cityId": 21,
+      "districtId": 264,
+      "status": "Aktif",
+      "registerDate": "18.09.2025",
+      "authorizedPerson": "Kenan Duran",
+      "createdBy": "cmfp6duz8000akzlgbd66lpm5",
+      "createdAt": "2025-09-18T10:18:33.748Z",
+      "updatedAt": "2025-09-18T10:18:33.748Z"
+    }
+  ],
+  "sales": [
+    {
+      "id": "cmfp9pqkt000lkzlgfxu9lnyu",
+      "customerId": "cmfp8xfre000dkzlgatgu81m0",
+      "model": "HR-V",
+      "chassisNo": "NMTKLKILIKSLK48989",
+      "engineNo": "KLMKLIO790",
+      "purchaseDate": "2025-09-18",
+      "salePrice": 2160000,
+      "purchasePrice": 1000000,
+      "contributionAmount": 31000,
+      "mtvCost": 5056,
+      "licensePlateCost": 2809,
+      "color": "GÜN IŞIĞI BEYAZI",
+      "packageId": "cmfp9axgo000fkzlgrpt8mlkv",
+      "packageName": "Elegance",
+      "createdBy": "cmfp6duz8000akzlgbd66lpm5",
+      "createdAt": "2025-09-18T10:28:36.942Z",
+      "updatedAt": "2025-09-18T10:28:36.942Z"
+    }
+  ],
+  "corporateSales": [],
+  "accessorySales": []
+}

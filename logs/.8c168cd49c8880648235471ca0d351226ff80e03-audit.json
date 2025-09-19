@@ -1,0 +1,15 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "/Users/hayrikayar/Desktop/v3-4/honda-portal-2/logs/.8c168cd49c8880648235471ca0d351226ff80e03-audit.json",
+    "files": [
+        {
+            "date": 1758263503190,
+            "name": "/Users/hayrikayar/Desktop/v3-4/honda-portal-2/logs/error-2025-09-19.log",
+            "hash": "48a1327e9b40ef645bed4e636ac17ee7252b14b66b51513d6b32a3ed2ad60843"
+        }
+    ],
+    "hashType": "sha256"
+}

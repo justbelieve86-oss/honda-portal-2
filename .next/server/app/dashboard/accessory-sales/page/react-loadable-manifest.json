@@ -1,0 +1,17 @@
+{
+  "[project]/src/app/components/dashboard/Navbar.tsx [app-client] (ecmascript, next/dynamic entry)": {
+    "id": "[project]/src/app/components/dashboard/Navbar.tsx [app-client] (ecmascript, next/dynamic entry)",
+    "files": [
+      "static/chunks/src_app_components_dashboard_Navbar_tsx_dfd2a4c7._.js",
+      "static/chunks/src_app_components_dashboard_Navbar_tsx_5ede0e21._.js"
+    ]
+  },
+  "[project]/src/app/components/dashboard/Sidebar.tsx [app-client] (ecmascript, next/dynamic entry)": {
+    "id": "[project]/src/app/components/dashboard/Sidebar.tsx [app-client] (ecmascript, next/dynamic entry)",
+    "files": [
+      "static/chunks/[turbopack]_browser_dev_hmr-client_hmr-client_ts_64cc03b1._.js",
+      "static/chunks/_19001a08._.js",
+      "static/chunks/src_app_components_dashboard_Sidebar_tsx_5ede0e21._.js"
+    ]
+  }
+}
