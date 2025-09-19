@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 6, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"","debugId":null}},
-    {"offset": {"line": 60, "column": 0}, "map": {"version":3,"sources":["file:///Users/hayrikayar/Desktop/v3-4/honda-portal-2/src/app/api/taxRates/route.ts"],"sourcesContent":["import { NextResponse } from 'next/server';\n\nexport async function GET() {\n  try {\n    // Normalde bu veriler bir veritabanından çekilirdi\n    // Şu an için sabit değerler kullanıyoruz\n    // Gerçek uygulamada bu değerler veritabanından alınmalı\n    const taxRates = {\n      vatRate: 0.20, // KDV oranı (%20)\n      sctRate: 0.18, // ÖTV oranı (%18)\n    };\n    \n    return NextResponse.json(taxRates, { status: 200 });\n  } catch (error) {\n    console.error('Vergi oranları alınırken hata:', error);\n    return NextResponse.json(\n      { error: 'Vergi oranları alınamadı' },\n      { status: 500 }\n    );\n  }\n} "],"names":[],"mappings":";;;AAAA;;AAEO,eAAe;IACpB,IAAI;QACF,mDAAmD;QACnD,yCAAyC;QACzC,wDAAwD;QACxD,MAAM,WAAW;YACf,SAAS;YACT,SAAS;QACX;QAEA,OAAO,gIAAA,CAAA,eAAY,CAAC,IAAI,CAAC,UAAU;YAAE,QAAQ;QAAI;IACnD,EAAE,OAAO,OAAO;QACd,QAAQ,KAAK,CAAC,kCAAkC;QAChD,OAAO,gIAAA,CAAA,eAAY,CAAC,IAAI,CACtB;YAAE,OAAO;QAA2B,GACpC;YAAE,QAAQ;QAAI;IAElB;AACF","debugId":null}}]
-}
