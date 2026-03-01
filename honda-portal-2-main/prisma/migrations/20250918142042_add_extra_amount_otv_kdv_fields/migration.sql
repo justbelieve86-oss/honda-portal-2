@@ -1,0 +1,9 @@
+-- AlterTable
+ALTER TABLE "CorporateSale" ADD COLUMN     "extraAmount" DOUBLE PRECISION,
+ADD COLUMN     "kdvRate" DOUBLE PRECISION,
+ADD COLUMN     "otvRate" DOUBLE PRECISION;
+
+-- AlterTable
+ALTER TABLE "Sale" ADD COLUMN     "extraAmount" DOUBLE PRECISION,
+ADD COLUMN     "kdvRate" DOUBLE PRECISION,
+ADD COLUMN     "otvRate" DOUBLE PRECISION;
